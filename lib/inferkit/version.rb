@@ -1,0 +1,3 @@
+module Inferkit
+  VERSION = '0.0.1'
+end

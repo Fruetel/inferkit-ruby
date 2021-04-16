@@ -1,0 +1,13 @@
+{
+  "name": "queue-store",
+  "private": true,
+  "scripts": {
+    "prettify": "prettier \"**/*.{ru,rb,yml,yaml,md}\" --ignore-path=\".gitignore\"",
+    "lint": "yarn prettify --check",
+    "format": "yarn prettify --write"
+  },
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^0.20.1",
+    "prettier": "^2.2.0"
+  }
+}
